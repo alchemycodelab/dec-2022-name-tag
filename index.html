@@ -6,9 +6,6 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
         <script type="module" src="app.js"></script>
-        <script>
-            console.log('hello world!');
-        </script>
 
         <!-- put css fonts here -->
 
@@ -18,23 +15,23 @@
     </head>
 
     <body>
-        <header>
+        <header style="background-color: purple">
             <h1>My Project</h1>
         </header>
 
         <main>
             <p>
                 Name
-                <input />
+                <input id="name-input" />
                 <!-- user types in the name -->
-                <button>Update</button>
+                <button id="update-button">Update</button>
                 <!-- user clicks the button -->
             </p>
 
-            <div class="nametag">
+            <div id="nametag">
                 <p class="greeting">Hello</p>
                 <p>my name is</p>
-                <p class="name">Felix</p>
+                <p id="name-display" class="name">Felix</p>
                 <!-- thing that will be updated -->
             </div>
         </main>
