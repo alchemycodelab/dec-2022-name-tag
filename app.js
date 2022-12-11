@@ -1,4 +1,5 @@
 // grab the different DOM elements
+// variables can be named anything but the id needs to match the html
 const booger = document.getElementById('nametag');
 const nameDisplay = document.getElementById('name-display');
 const nameInput = document.getElementById('name-input');
